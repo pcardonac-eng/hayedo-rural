@@ -60,3 +60,19 @@
 
 | Web | Rendimiento | Accesibilidad | Comentario |
 | --- | ----------- | ------------- | ---------- |
+
+## Ejemplo de conclusiones (nivel estándar)
+
+**Ideas que copiaríamos**
+
+1. Buscador con fechas y número de personas visible en la portada; precio «desde» en cada tarjeta.
+2. Filtros por comarca y por servicios clave (jardín, mascotas, accesible).
+3. Galería grande con fotos reales, opiniones junto al botón de reserva y mapa en cada ficha.
+
+**Errores que evitaríamos**
+
+1. Menús con más de 7 opciones o etiquetas institucionales («Recursos», «Oferta»).
+2. Precios que cambian al final por gastos añadidos: en Hayedo Rural, precio con IVA incluido.
+3. Texto gris claro sobre fotografías y ventanas emergentes al entrar.
+
+**Contraste con IA:** la IA señaló que no habíamos evaluado la prevención de errores (H5) ni la ayuda (H10). Aceptamos revisar si el calendario impide elegir fechas pasadas. Descartamos añadir un chat en vivo: una empresa pequeña no podría atenderlo.
