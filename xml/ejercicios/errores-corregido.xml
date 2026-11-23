@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Solución: documento bien formado -->
+<catalogo>
+  <alojamiento id="cabana-el-acebo">
+    <nombre>Cabaña El Acebo</nombre>
+    <valle>Valles Pasiegos</valle>
+    <capacidad plazas="4"/>
+    <tarifas><tarifa temporada="baja">95</tarifa></tarifas>
+    <servicio2>Estufa de leña</servicio2>
+    <descripcion>Cabaña con terraza &amp; vistas &lt;sin ruido&gt;</descripcion>
+    <mascotas>no</mascotas>
+  </alojamiento>
+  <alojamiento id="casa-del-rio"></alojamiento>
+</catalogo>

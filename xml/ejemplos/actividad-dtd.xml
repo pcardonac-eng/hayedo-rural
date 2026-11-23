@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Ejemplo de DTD interna (sesión 3 · UD2.6). No forma parte de la práctica P2.
+  Prueba: cambia el orden de duracion y precio, borra el atributo id o escribe
+  <precio>gratis</precio>. ¿Qué errores detecta la DTD y cuál no?
+-->
+<!DOCTYPE actividad [
+  <!ELEMENT actividad (nombre, duracion, precio, idioma*)>
+  <!ATTLIST actividad id ID #REQUIRED>
+  <!ELEMENT nombre   (#PCDATA)>
+  <!ELEMENT duracion (#PCDATA)>
+  <!ELEMENT precio   (#PCDATA)>
+  <!ELEMENT idioma   (#PCDATA)>
+]>
+<actividad id="estrellas">
+  <nombre>Observación de estrellas</nombre>
+  <duracion>2</duracion>
+  <precio>18</precio>
+  <idioma>español</idioma>
+  <idioma>inglés</idioma>
+</actividad>

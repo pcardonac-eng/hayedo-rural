@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Actividades de naturaleza de Hayedo Rural (ficticias) -->
+<actividades>
+  <actividad id="act-1">
+    <nombre>Ruta guiada por el Hayedo de Saja</nombre>
+    <duracion unidad="h">4</duracion>
+    <precio moneda="EUR" por="persona">25</precio>
+  </actividad>
+  <actividad id="act-2">
+    <nombre>Taller de quesería pasiega</nombre>
+    <duracion unidad="h">2</duracion>
+    <precio moneda="EUR" por="persona">30</precio>
+  </actividad>
+  <actividad id="act-3">
+    <nombre>Observación de estrellas</nombre>
+    <duracion unidad="h">2</duracion>
+    <precio moneda="EUR" por="persona">18</precio>
+  </actividad>
+  <actividad id="act-4">
+    <nombre>Descenso en canoa por el Nansa</nombre>
+    <duracion unidad="h">3</duracion>
+    <precio moneda="EUR" por="persona">35</precio>
+  </actividad>
+</actividades>

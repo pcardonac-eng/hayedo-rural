@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Catálogo de alojamientos de Hayedo Rural S.L. (empresa ficticia)
+  Autoría: equipo web · Última revisión: 28/10/2026
+  Precios por noche en euros, IVA incluido.
+-->
+<catalogo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="alojamientos.xsd"
+          empresa="Hayedo Rural S.L." actualizado="2026-10-28">
+  <alojamiento id="casona-la-brana" tipo="casa">
+    <nombre>Casona La Braña</nombre>
+    <valle>Valle de Cabuérniga</valle>
+    <capacidad plazas="8" dormitorios="4"/>
+    <tarifas moneda="EUR">
+      <tarifa temporada="baja">180</tarifa>
+      <tarifa temporada="media">220</tarifa>
+      <tarifa temporada="alta">280</tarifa>
+    </tarifas>
+    <servicios>
+      <servicio>Chimenea</servicio>
+      <servicio>Jardín con barbacoa</servicio>
+      <servicio>Wifi</servicio>
+      <servicio>Admite mascotas</servicio>
+    </servicios>
+    <descripcion>Casona montañesa del siglo XIX con chimenea, jardín &amp; barbacoa. Ideal para familias.</descripcion>
+  </alojamiento>
+  <alojamiento id="cabana-el-acebo" tipo="cabana">
+    <nombre>Cabaña El Acebo</nombre>
+    <valle>Valles Pasiegos</valle>
+    <capacidad plazas="4" dormitorios="2"/>
+    <tarifas moneda="EUR">
+      <tarifa temporada="baja">95</tarifa>
+      <tarifa temporada="media">115</tarifa>
+      <tarifa temporada="alta">140</tarifa>
+    </tarifas>
+    <servicios>
+      <servicio>Estufa de leña</servicio>
+      <servicio>Terraza con vistas</servicio>
+      <servicio>Cocina equipada</servicio>
+    </servicios>
+    <descripcion>Cabaña de madera con terraza y vistas a los prados pasiegos.</descripcion>
+  </alojamiento>
+  <alojamiento id="casa-los-tejos" tipo="casa">
+    <nombre>Casa Los Tejos</nombre>
+    <valle>Liébana</valle>
+    <capacidad plazas="6" dormitorios="3"/>
+    <tarifas moneda="EUR">
+      <tarifa temporada="baja">140</tarifa>
+      <tarifa temporada="media">170</tarifa>
+      <tarifa temporada="alta">210</tarifa>
+    </tarifas>
+    <servicios>
+      <servicio>Huerto ecológico</servicio>
+      <servicio>Wifi</servicio>
+      <servicio>Aparcamiento</servicio>
+    </servicios>
+    <descripcion>Casa de piedra rodeada de huerto ecológico, a 10 min de Potes.</descripcion>
+  </alojamiento>
+  <alojamiento id="cabana-el-hayal" tipo="cabana">
+    <nombre>Cabaña El Hayal</nombre>
+    <valle>Valle de Saja</valle>
+    <capacidad plazas="2" dormitorios="1"/>
+    <tarifas moneda="EUR">
+      <tarifa temporada="baja">110</tarifa>
+      <tarifa temporada="media">130</tarifa>
+      <tarifa temporada="alta">160</tarifa>
+    </tarifas>
+    <servicios>
+      <servicio>Desayuno incluido</servicio>
+      <servicio>Bañera exterior</servicio>
+      <servicio>Solo adultos</servicio>
+    </servicios>
+    <descripcion>Cabaña a 4 m de altura entre hayas. Solo adultos; desayuno incluido.</descripcion>
+  </alojamiento>
+  <alojamiento id="casa-del-rio" tipo="apartamento">
+    <nombre>Casa del Río</nombre>
+    <valle>Valle del Nansa</valle>
+    <capacidad plazas="4" dormitorios="2"/>
+    <tarifas moneda="EUR">
+      <tarifa temporada="baja">85</tarifa>
+      <tarifa temporada="media">100</tarifa>
+      <tarifa temporada="alta">125</tarifa>
+    </tarifas>
+    <servicios>
+      <servicio>Accesible (PMR)</servicio>
+      <servicio>Wifi</servicio>
+      <servicio>Admite mascotas</servicio>
+    </servicios>
+    <descripcion>Apartamento accesible (PMR) junto al río Nansa.</descripcion>
+  </alojamiento>
+</catalogo>

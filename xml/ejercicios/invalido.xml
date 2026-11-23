@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ejercicio: documento BIEN FORMADO pero NO VÁLIDO frente a ../alojamientos.xsd.
+     Tiene 6 errores de validez. -->
+<catalogo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../alojamientos.xsd"
+          empresa="Hayedo Rural S.L." actualizado="28/10/2026">
+  <alojamiento id="casa-los-tejos" tipo="chalet">
+    <nombre>Casa Los Tejos</nombre>
+    <capacidad plazas="6"/>
+    <valle>Liébana</valle>
+    <tarifas moneda="EUR">
+      <tarifa temporada="baja">140 €</tarifa>
+      <tarifa temporada="alta">210</tarifa>
+    </tarifas>
+    <descripcion>Casa de piedra con huerto.</descripcion>
+  </alojamiento>
+  <alojamiento id="casa-los-tejos" tipo="casa">
+    <nombre>Casa Los Tejos (duplicada)</nombre>
+    <valle>Liébana</valle>
+    <capacidad plazas="6"/>
+    <tarifas><tarifa temporada="baja">140</tarifa><tarifa temporada="media">170</tarifa><tarifa temporada="alta">210</tarifa></tarifas>
+    <descripcion>Duplicado.</descripcion>
+  </alojamiento>
+</catalogo>

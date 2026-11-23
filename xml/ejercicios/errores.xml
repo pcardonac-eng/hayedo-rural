@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ejercicio: este documento tiene 9 errores de buena formación. ¡Encuéntralos! -->
+<alojamiento id=cabana-el-acebo>
+  <Nombre>Cabaña El Acebo</nombre>
+  <valle>Valles Pasiegos</valle>
+  <capacidad plazas="4" plazas="5"/>
+  <tarifas><tarifa temporada="baja">95</tarifas></tarifa>
+  <2servicio>Estufa de leña</2servicio>
+  <descripcion>Cabaña con terraza & vistas <sin ruido></descripcion>
+  <mascotas>no
+</alojamiento>
+<alojamiento id="casa-del-rio"></alojamiento>

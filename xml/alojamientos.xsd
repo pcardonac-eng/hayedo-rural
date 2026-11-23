@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Esquema XSD del catálogo de alojamientos de Hayedo Rural · versión 1 (sesión 3)
+  Estructura (elementos, orden, ocurrencias, atributos) y tipos predefinidos.
+  En la sesión 4 se añaden tipos propios con restricciones (tipo, precio, temporada).
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="catalogo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="alojamiento" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="valle" type="xs:string"/>
+              <xs:element name="capacidad">
+                <xs:complexType>
+                  <xs:attribute name="plazas" type="xs:positiveInteger" use="required"/>
+                  <xs:attribute name="dormitorios" type="xs:positiveInteger"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="tarifas">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="tarifa" minOccurs="3" maxOccurs="3">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:decimal">
+                            <xs:attribute name="temporada" type="xs:string" use="required"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="moneda" type="xs:string" fixed="EUR"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="servicios" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="servicio" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="descripcion" type="xs:string"/>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:ID" use="required"/>
+            <xs:attribute name="tipo" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="empresa" type="xs:string" use="required"/>
+      <xs:attribute name="actualizado" type="xs:date"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
